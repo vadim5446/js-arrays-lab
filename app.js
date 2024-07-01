@@ -29,3 +29,21 @@ console.log('Exercise 8 result:', soyIdx);
 
 let allFoods = foods.join('->');
 console.log('Exercise 9 results:', allFoods);
+/*
+Exercise 10: Check for an element
+
+1) Using the .includes() method, check if the `foods` array contains the string
+   'soup'.
+
+2) Assign the result to a variable called `hasSoup``.
+
+Complete Exercise 10 in the space below:
+*/
+
+let foods = ['salad', 'fruit', 'soup', 'cookies'];  // Example array
+let hasSoup = foods.includes('soup');
+
+console.log(hasSoup);  // Output: true
+
+
+console.log('Exercise 10 result:', hasSoup);
